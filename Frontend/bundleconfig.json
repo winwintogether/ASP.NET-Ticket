@@ -5,7 +5,6 @@
     "outputFileName": "wwwroot/css/site.css",
     // An array of relative input file paths. Globbing patterns supported
     "inputFiles": [
-      // "wwwroot/css/site.css"
       "wwwroot/css/normalize.css",
       "wwwroot/css/jquery.formstyler.css",
       "wwwroot/css/jquery.formstyler.theme.css",
@@ -16,8 +15,7 @@
   {
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
-      //"wwwroot/js/site.js"
-      "wwwroot/js/jquery-1.12.3.min.js",
+       "wwwroot/js/jquery-1.12.3.min.js",
       "wwwroot/js/jquery.formstyler.min.js",
       "wwwroot/js/custom.js",
       "wwwroot/js/ie10-viewport-bug-workaround.js"
