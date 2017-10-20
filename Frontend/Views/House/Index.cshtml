@@ -1,0 +1,411 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="c-content__wrap">
+    <div class="l-container">
+        <div class="c-content__agent-profile h-clearfix">
+            <div class="c-content__agent-overview l-col l-col-8">
+                <div class="c-content__agent-card">
+                    <h1>Melissa Crosby</h1>
+                    <div class="c-content__agent-profile-photo">
+                        <img src="~/custom/agent5.png" alt="">
+                    </div>
+                    <div class="c-content__agent-rating">
+                        <div class="c-content__agent-stars">
+                            <span class="c-content__agent-star c-content__agent-star--full"></span>
+                            <span class="c-content__agent-star c-content__agent-star--full"></span>
+                            <span class="c-content__agent-star c-content__agent-star--full"></span>
+                            <span class="c-content__agent-star c-content__agent-star--full"></span>
+                            <span class="c-content__agent-star c-content__agent-star--half-full"></span>
+                        </div>
+                        <div class="c-content__agent-info">
+                            <div class="c-content__agent-average">4.5</div>
+                            <a href="http://fast-coding.com/house/agent-profile.html#" class="c-content__agent-review-count">16</a>
+                        </div>
+                    </div>
+                    <div class="c-content__agent-skill-bars">
+                        <div class="c-content__agent-skill-bar">
+                            <div class="c-content__agent-skill-bar-title">Local knowledge</div>
+                            <div class="c-content__agent-skill-bar-average">4.5</div>
+                            <div class="c-content__agent-skill-bar-row--default">
+                                <div class="c-content__agent-skill-bar-row" style="width:90%;"></div>
+                            </div>
+                        </div>
+                        <div class="c-content__agent-skill-bar">
+                            <div class="c-content__agent-skill-bar-title">Process expertise</div>
+                            <div class="c-content__agent-skill-bar-average">4.2</div>
+                            <div class="c-content__agent-skill-bar-row--default">
+                                <div class="c-content__agent-skill-bar-row" style="width:84%;"></div>
+                            </div>
+                        </div>
+                        <div class="c-content__agent-skill-bar">
+                            <div class="c-content__agent-skill-bar-title">Responsiveness</div>
+                            <div class="c-content__agent-skill-bar-average">5.0</div>
+                            <div class="c-content__agent-skill-bar-row--default">
+                                <div class="c-content__agent-skill-bar-row" style="width:100%;"></div>
+                            </div>
+                        </div>
+                        <div class="c-content__agent-skill-bar">
+                            <div class="c-content__agent-skill-bar-title">Negotiation Skills</div>
+                            <div class="c-content__agent-skill-bar-average">4.1</div>
+                            <div class="c-content__agent-skill-bar-row--default">
+                                <div class="c-content__agent-skill-bar-row" style="width:82%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-content__agent-desc">
+                    <h4 class="l-border">About</h4>
+                    <p>
+                        Being a full-service Realtor since 2007, I have been baptized by fire in a very tough housing market. I have successfully closed over 60 transactions and
+                        processed over 70 short sales both as the listing agent and some for other agents. I am very knowledgeable about lenders and their processes. I strive to
+                        exceed expectations and never forget that I am always accountable to my clients.
+                    </p>
+                    <p>
+                        My objective is to establish relationships for life, not just for the current transaction. I enjoy assisting home buyers and sellers to get moved to a
+                        better place, one that is exciting.
+                    </p>
+                    <p class="l-small">
+                        <strong>Brokerage:</strong> Berkshire Hathaway HomeServices Elite Real Estate
+                    </p>
+                    <p class="l-small">
+                        <strong>Specialties:</strong> Property Management, Buyer’s Agent, Listing Agent…
+                    </p>
+                    <p class="l-small">
+                        <strong>License Number(s):</strong> #5452129
+                    </p>
+                </div>
+            </div>
+            <div class="c-content__agent-form l-col l-col-4">
+                <form class="l-form l-contact-agent-form">
+                    <div class="l-form__holder">
+                        <h5>Contact Melissa</h5>
+                        <div class="l-form__inner">
+                            <div class="l-form-row h-clearfix">
+                                <div class="l-form-group">
+                                    <input type="text" class="l-form-control" id="inputFirstName" required="">
+                                    <label for="inputFirstName" class="l-form-label">first name</label>
+                                    <span class="l-form-control-focus"></span>
+                                </div>
+                            </div>
+                            <div class="l-form-row h-clearfix">
+                                <div class="l-form-group">
+                                    <input type="text" class="l-form-control" id="inputLastName" required="">
+                                    <label for="inputLastName" class="l-form-label">last name</label>
+                                    <span class="l-form-control-focus"></span>
+                                </div>
+                            </div>
+                            <div class="l-form-row h-clearfix">
+                                <div class="l-form-group l-form-group--textarea">
+                                    <textarea class="l-form-control" id="areaComment" required=""></textarea>
+                                    <label for="areaComment" class="l-form-label">comment</label>
+                                    <span class="l-form-control-focus"></span>
+                                </div>
+                            </div>
+                            <div class="l-form-row l-form-row--submit l-row--center">
+                                <button type="submit" class="l-btn l-btn-primary">Submit</button>
+                                <div class="l-form__buttons h-clearfix">
+                                    <button type="button" class="l-btn l-btn--action l-btn--gray">Call</button>
+                                    <button type="button" class="l-btn l-btn--action l-btn--gray">Leave Review</button>
+                                </div>
+                                <div class="l-form-text">
+                                    <a href="http://fast-coding.com/house/agent-profile.html#">www.crosbyrealestate.com</a>
+                                </div>
+                                <ul class="l-list l-list--social c-content__agent-form-social">
+                                    <li>
+                                        <a href="http://fast-coding.com/house/agent-profile.html#" target="_blank">
+                                            <span class="l-list--social__icon">
+                                                <img src="~/custom/icon-twitter-agent.svg" alt="">
+                                            </span>
+                                            <span class="l-list--social__icon--hover">
+                                                <img src="~/custom/icon-twitter.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://fast-coding.com/house/agent-profile.html#" target="_blank">
+                                            <span class="l-list--social__icon">
+                                                <img src="~/custom/icon-facebook-agent.svg" alt="">
+                                            </span>
+                                            <span class="l-list--social__icon--hover">
+                                                <img src="~/custom/icon-facebook.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://fast-coding.com/house/agent-profile.html#" target="_blank">
+                                            <span class="l-list--social__icon">
+                                                <img src="~/custom/icon-linkedin-agent.svg" alt="">
+                                            </span>
+                                            <span class="l-list--social__icon--hover">
+                                                <img src="~/custom/icon-linkedin.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="l-divider l-divider--big"></div>
+        <h3>Active Listings</h3>
+        <div class="c-content__property c-content__property--active">
+            <div class="c-content__property-item">
+                <a href="http://fast-coding.com/house/agent-profile.html#">
+                    <div class="c-content__property-main">
+                        <div class="c-content__property-image">
+                            <img src="~/custom/home1.jpg" alt="">
+                        </div>
+                        <div class="c-content__property-price h-clearfix">
+                            <div class="c-content__property-price-current">
+                                $345,000
+                            </div>
+                            <div class="c-content__property-price-changes c-content__property-price-changes--up">
+                                <span class="value">6,5</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-content__property-desc">
+                        <div class="c-content__property-info h-clearfix">
+                            <div class="c-content__property-address">
+                                472 Ponderosa Dr, Alpine
+                            </div>
+                            <div class="c-content__property-photos">
+                                <span>×</span> 12
+                            </div>
+                        </div>
+                        <div class="c-content__property-features h-clearfix">
+                            <div class="c-content__property-feature c-content__property-feature--beds">
+                                4
+                            </div>
+                            <div class="c-content__property-feature c-content__property-feature--bath">
+                                3.0
+                            </div>
+                            <div class="c-content__property-feature c-content__property-feature--sqft">
+                                2,785
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="c-content__property-favourite"></div>
+            </div>
+            <div class="c-content__property-item c-content__property-item--favourite">
+                <a href="http://fast-coding.com/house/agent-profile.html#">
+                    <div class="c-content__property-main">
+                        <div class="c-content__property-image">
+                            <img src="~/custom/home8.jpg" alt="">
+                        </div>
+                        <div class="c-content__property-price h-clearfix">
+                            <div class="c-content__property-price-current">
+                                $345,000
+                            </div>
+                            <div class="c-content__property-price-changes c-content__property-price-changes--down">
+                                <span class="value">10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-content__property-desc">
+                        <div class="c-content__property-info h-clearfix">
+                            <div class="c-content__property-address">
+                                472 Ponderosa Dr, Alpine
+                            </div>
+                            <div class="c-content__property-photos">
+                                <span>×</span> 12
+                            </div>
+                        </div>
+                        <div class="c-content__property-features h-clearfix">
+                            <div class="c-content__property-feature c-content__property-feature--beds">
+                                4
+                            </div>
+                            <div class="c-content__property-feature c-content__property-feature--bath">
+                                3.0
+                            </div>
+                            <div class="c-content__property-feature c-content__property-feature--sqft">
+                                2,785
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="c-content__property-favourite"></div>
+            </div>
+            <div class="c-content__property-item">
+                <a href="http://fast-coding.com/house/agent-profile.html#">
+                    <div class="c-content__property-main">
+                        <div class="c-content__property-image">
+                            <img src="~/custom/home11.jpg" alt="">
+                        </div>
+                        <div class="c-content__property-price h-clearfix">
+                            <div class="c-content__property-price-current">
+                                $345,000
+                            </div>
+                            <div class="c-content__property-price-changes c-content__property-price-changes--none">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-content__property-desc">
+                        <div class="c-content__property-info h-clearfix">
+                            <div class="c-content__property-address">
+                                472 Ponderosa Dr, Alpine
+                            </div>
+                            <div class="c-content__property-photos">
+                                <span>×</span> 12
+                            </div>
+                        </div>
+                        <div class="c-content__property-features h-clearfix">
+                            <div class="c-content__property-feature c-content__property-feature--beds">
+                                4
+                            </div>
+                            <div class="c-content__property-feature c-content__property-feature--bath">
+                                3.0
+                            </div>
+                            <div class="c-content__property-feature c-content__property-feature--sqft">
+                                2,785
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="c-content__property-favourite"></div>
+            </div>
+        </div>
+        <div class="l-row l-row--center">
+            <a class="l-btn l-btn-more l-btn--blue" href="http://fast-coding.com/house/agent-profile.html#">See More</a>
+        </div>
+        <div class="l-divider l-divider--big"></div>
+        <h3>Past Sales</h3>
+        <div class="c-content__sales">
+            <div class="c-content__sales-row">
+                <div class="c-content__sales-col c-content__sales-col--property">
+                    Property
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--details">
+                    Details
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--represented">
+                    Represented
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--price">
+                    Price
+                </div>
+            </div>
+            <div class="c-content__sales-row">
+                <div class="c-content__sales-col c-content__sales-col--property">
+                    <div class="c-content__sales-property-photo">
+                        <img src="~/custom/home5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--details">
+                    <span class="c-content__sales-price">$900,000</span>
+                    <span class="c-content__sales-location">Jamul, CA</span>
+                    <span class="c-content__sales-address">3247 Greystone Dr • Jamul, CA 91935</span>
+                    <span class="c-content__sales-info">7 bed, 4 bath, 6,150 sqft</span>
+                    <span class="c-content__sales-date">Sold date: 09/12/2017</span>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--represented">
+                    Seller
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--price">
+                    $900,000
+                </div>
+            </div>
+            <div class="c-content__sales-row">
+                <div class="c-content__sales-col c-content__sales-col--property">
+                    <div class="c-content__sales-property-photo">
+                        <img src="~/custom/home4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--details">
+                    <span class="c-content__sales-price">$490,000</span>
+                    <span class="c-content__sales-location">El Cajon, CA</span>
+                    <span class="c-content__sales-address">9951 Watergum Trl • Santee, CA 92071</span>
+                    <span class="c-content__sales-info">6 bed, 5.5 bath, 5,505 sqft</span>
+                    <span class="c-content__sales-date">Sold date: 07/21/2017</span>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--represented">
+                    Buyer
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--price">
+                    $490,000
+                </div>
+            </div>
+            <div class="c-content__sales-row">
+                <div class="c-content__sales-col c-content__sales-col--property">
+                    <div class="c-content__sales-property-photo">
+                        <img src="~/custom/home12.jpg" alt="">
+                    </div>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--details">
+                    <span class="c-content__sales-price">$529,000</span>
+                    <span class="c-content__sales-location">Santee, CA</span>
+                    <span class="c-content__sales-address">627 Hawthorne Ave • El Cajon, CA 92020</span>
+                    <span class="c-content__sales-info">6 bed, 5.5 bath, 5,505 sqft</span>
+                    <span class="c-content__sales-date">Sold date: 09/11/2017</span>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--represented">
+                    Buyer
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--price">
+                    $529,000
+                </div>
+            </div>
+            <div class="c-content__sales-row">
+                <div class="c-content__sales-col c-content__sales-col--property">
+                    <div class="c-content__sales-property-photo">
+                        <img src="~/custom/home6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--details">
+                    <span class="c-content__sales-price">$555,000</span>
+                    <span class="c-content__sales-location">La Mesa, CA</span>
+                    <span class="c-content__sales-address">9565 Janfred Way • La Mesa, CA 91942</span>
+                    <span class="c-content__sales-info">6 bed, 5.5 bath, 5,505 sqft</span>
+                    <span class="c-content__sales-date">Sold date: 07/11/2017</span>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--represented">
+                    Buyer
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--price">
+                    $555,000
+                </div>
+            </div>
+            <div class="c-content__sales-row">
+                <div class="c-content__sales-col c-content__sales-col--property">
+                    <div class="c-content__sales-property-photo">
+                        <img src="~/custom/home7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--details">
+                    <span class="c-content__sales-price">$1,265,000</span>
+                    <span class="c-content__sales-location">La Mesa, CA</span>
+                    <span class="c-content__sales-address">5160 Alzeda Dr • La Mesa, CA 91941</span>
+                    <span class="c-content__sales-info">6 bed, 5.5 bath, 5,505 sqft</span>
+                    <span class="c-content__sales-date">Sold date: 07/07/2017</span>
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--represented">
+                    Seller
+                </div>
+                <div class="c-content__sales-col c-content__sales-col--price">
+                    $1,265,000
+                </div>
+            </div>
+            <ul class="l-list l-list--pagination">
+                <li class="l-list__pagination-control l-list__pagination-control--prev l-list__pagination-control--disabled">
+                    <a href="http://fast-coding.com/house/agent-profile.html#"></a>
+                </li>
+                <li class="l-list__pagination-pages">
+                    <span class="l-list-pagination__current">1</span>
+                    <span class="l-list-pagination__pages-count">32</span>
+                </li>
+                <li class="l-list__pagination-control l-list__pagination-control--next">
+                    <a href="http://fast-coding.com/house/agent-profile.html#"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="l-divider l-divider--big"></div>
+        <h3>Ratings &amp; Reviews</h3>
+    </div>
+</div>
