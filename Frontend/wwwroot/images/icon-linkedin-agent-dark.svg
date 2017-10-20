@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1377 1642.5 44 44">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #555;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #555;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_246" data-name="Group 246" transform="translate(1128 886)">
+    <g id="Rectangle_153" data-name="Rectangle 153" class="cls-1" transform="translate(249 756.5)">
+      <rect class="cls-3" width="44" height="44" rx="3"/>
+      <rect class="cls-4" x="1" y="1" width="42" height="42" rx="2"/>
+    </g>
+    <path id="Path_271" data-name="Path 271" class="cls-2" d="M29.561,28H35v2.811h.061A6.069,6.069,0,0,1,40.439,28c5.744,0,6.783,3.544,6.783,8.189v9.472H41.539V37.289c0-2.017-.061-4.583-2.933-4.583-2.933,0-3.422,2.2-3.422,4.4v8.556H29.5V28Z" transform="translate(237.528 745.611)"/>
+    <path id="Path_272" data-name="Path 272" class="cls-2" d="M13.5,28h5.867V45.661H13.5Z" transform="translate(243.75 745.611)"/>
+    <path id="Path_273" data-name="Path 273" class="cls-2" d="M19.367,18.033a2.934,2.934,0,0,1-2.933,2.933,2.933,2.933,0,1,1,2.933-2.933Z" transform="translate(243.75 750.628)"/>
+  </g>
+</svg>
