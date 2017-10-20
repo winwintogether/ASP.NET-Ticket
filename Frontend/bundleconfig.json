@@ -6,21 +6,21 @@
     // An array of relative input file paths. Globbing patterns supported
     "inputFiles": [
       // "wwwroot/css/site.css"
-      "wwwroot/custom/normalize.css",
-      "wwwroot/custom/jquery.formstyler.css",
-      "wwwroot/custom/jquery.formstyler.theme.css",
-      "wwwroot/custom/style.css",
-      "wwwroot/custom/fonts.css"
+      "wwwroot/css/normalize.css",
+      "wwwroot/css/jquery.formstyler.css",
+      "wwwroot/css/jquery.formstyler.theme.css",
+      "wwwroot/css/style.css",
+      "wwwroot/css/fonts.css"
     ]
   },
   {
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
       //"wwwroot/js/site.js"
-      "wwwroot/custom/jquery-1.12.3.min.js",
-      "wwwroot/custom/jquery.formstyler.min.js",
-      "wwwroot/custom/custom.js",
-      "wwwroot/custom/ie10-viewport-bug-workaround.js"
+      "wwwroot/js/jquery-1.12.3.min.js",
+      "wwwroot/js/jquery.formstyler.min.js",
+      "wwwroot/js/custom.js",
+      "wwwroot/js/ie10-viewport-bug-workaround.js"
     ],
     // Optionally specify minification options
     "minify": {
